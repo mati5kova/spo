@@ -1,5 +1,5 @@
 stmod	START	0		. stmod <=> stack module
-		EXTDEF	stinit,push,pop,peek
+	EXTDEF	stinit,push,pop,peek
 . inicializacija stacka; ohrani vsebino registra A
 stinit
 	STA	stacktmpa
